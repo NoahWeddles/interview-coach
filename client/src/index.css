@@ -1,0 +1,18 @@
+.app{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.card{
+    margin: 0;
+    width: clamp(10px, 40%, 400px);
+    border-radius: 0.8rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px hsla(0, 0%, 51%, 0.1);
+}
+
+.app-header{
+    display: flex;
+    align-items: center;
+}
